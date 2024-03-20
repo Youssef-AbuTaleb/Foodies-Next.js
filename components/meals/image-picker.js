@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import classes from "./image-picker.module.css";
 import Image from "next/image";
 
-export default function ImagePicker({ label, name }) {
+export default function ImagePicker({ label, name, handleImageData }) {
   const [pickedImage, setPickedImage] = useState();
   const imageInput = useRef();
 
@@ -19,6 +19,7 @@ export default function ImagePicker({ label, name }) {
     const fileReader = new FileReader();
     fileReader.onload = () => {
       setPickedImage(fileReader.result);
+      handleImageData(fileReader.result);
     };
     fileReader.readAsDataURL(file);
   }

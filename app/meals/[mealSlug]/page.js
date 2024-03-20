@@ -15,7 +15,12 @@ export default async function MealsDetailsPage({ params }) {
     <>
       <header className={classes.header}>
         <div className={classes.image}>
-          <Image src={meal.image} alt={meal.title} fill sizes="33vw" />
+          <Image
+            src={`https://youssseflexmodo.publit.io/file/FoodiesImages/${meal.image}`}
+            alt={meal.title}
+            fill
+            sizes="33vw"
+          />
         </div>
         <div className={classes.headerText}>
           <h1>{meal.title}</h1>
