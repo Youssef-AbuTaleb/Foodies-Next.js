@@ -1,5 +1,5 @@
 # Foodies Meals website
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)]([https://youssef-abutaleb.github.io/Nexter](https://foodies-share-nextjs.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)]([https://youssef-abutaleb.github.io/Nexter](https://foodies-share-nextjs.netlify.app/))
 ## Description:
 - This blog is created to help users explore shared meals. 
 - Users Could also share thier own meanls.
